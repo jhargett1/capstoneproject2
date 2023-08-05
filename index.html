@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Josh Hargett</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    .ibm {
+      font-family: "IBM Plex Serif", serif;
+    }
+
+    .ubuntu {
+      font-family: "Ubuntu", sans-serif;
+    }
+
+    div {
+      display: block;
+    }
+  </style>
+  <body>
+    <header class="p-3 navheader">
+      <div class="container">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+        >
+          <a
+            href="/"
+            class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
+          >
+            <svg
+              class="bi me-2"
+              width="40"
+              height="32"
+              role="img"
+              aria-label="Bootstrap"
+            >
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+
+          <ul
+            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+          >
+            <li>
+              <a href="#hero" class="nav-link px-2 text-secondary">Home</a>
+            </li>
+            <li>
+              <a href="#resume" class="nav-link px-2 text-white">Resume</a>
+            </li>
+            <li>
+              <a href="#projectwork" class="nav-link px-2 text-white"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#aboutme" class="nav-link px-2 text-white">About Me</a>
+            </li>
+            <li>
+              <a href="#contactme" class="nav-link px-2 text-white">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section id="hero">
+      <div class="backgroundimage">
+        <img class="top-cloud" src="./cloud.png" alt="cloud" />
+        <div class="px-4 pt-5 text-center border-bottom">
+          <h1 class="display-4 fw-bold text-header-emphasis ibm highlight">
+            I'm Josh
+          </h1>
+          <div class="col-lg-6 mx-auto">
+            <br />
+            <h2 class="highlight ubuntu">I'm a Cloud Engineer.</h2>
+            <br />
+            <div
+              class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5"
+            ></div>
+          </div>
+          <div class="overflow-hidden" style="max-height: 30vh">
+            <div class="container px-5">
+              <img class="mid-cloud" src="./cloud.png" alt="cloud" />
+              <img class="low-cloud" src="./cloud.png" alt="cloud" />
+              <img class="computer" src="./computer.png" alt="computer" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="resume">
+      <div class="mb-5">
+        <div class="p-5 text-center bg-body-tertiary">
+          <div class="container py-5">
+            <img
+              class="profile-img"
+              src="./ProfilePic.png"
+              alt="profile picture"
+            />
+            <h2 class="col-lg-8 mx-auto my-2 ubuntu darktext">Welcome!</h2>
+            <p class="darktext">
+              As an Azure certified Cloud Engineer with 6 years of system
+              engineer experience, I have developed a strong foundation in
+              troubleshooting and problem-solving. With a focus on automation
+              and optimization, I have consistently demonstrated my ability to
+              identify potential problems before they occur, minimizing downtime
+              and improving system performance.
+            </p>
+            <p class="darktext">
+              Feel free to download my resume by clicking the download button
+              below. If you'd like to view an html only version, click the
+              second button.
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <a href="./JoshHargettResume.pdf" download
+                ><button
+                  type="button"
+                  class="btn btn-light btn-lg px-4 gap-3 ubuntu highlight"
+                  style="background-color: #18113a"
+                >
+                  Download Resume
+                </button></a
+              >
+              <a href="../Capstone Project 1/index.html"
+                ><button
+                  type="button"
+                  class="btn btn-outline-secondary btn-lg px-4 gap-3 ubuntu highlight"
+                  target="_blank"
+                  style="background-color: #18113a"
+                >
+                  HTML Only Version
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projectwork">
+      <div class="container px-4 py-5 ubuntu darktext" id="featured-3">
+        <h2 class="pb-2 border-bottom">Project Work</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            >
+              <img
+                src="./cruddur.svg"
+                alt="cruddur"
+                height="50"
+                fill="#18113a"
+              />
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Cruddur</h3>
+            <p>
+              Took part in Andrew Brown's AWS Cloud Project Bootcamp, in which
+              we created a micro-blogging web application deployed using AWS.
+              The frontend is written in React-JS and the backend is using Flask
+              written in Python.
+            </p>
+            <a
+              href="https://github.com/jhargett1/aws-bootcamp-cruddur-2023"
+              target="_blank"
+              class="icon-link"
+            >
+              Github Repository
+              <img src="./chevron-right.svg" alt="chevron right" />
+            </a>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="50"
+                fill="#18113a"
+                class="bi bi-filetype-py"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M14 4.5V14a2 2 0 0 1-2 2H7v-1h5a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM0 11.85h1.6c.289 0 .533.06.732.179.201.117.355.276.46.477.105.201.158.427.158.677 0 .25-.054.476-.16.677-.106.199-.26.357-.464.474a1.452 1.452 0 0 1-.732.173H.79v1.342H0V11.85Zm2.06 1.714a.795.795 0 0 0 .085-.381c0-.227-.062-.4-.185-.521-.123-.122-.294-.182-.513-.182H.788v1.406h.66a.794.794 0 0 0 .374-.082.574.574 0 0 0 .238-.24Zm2.963.75v1.535H4.23v-1.52L2.89 11.85h.876l.853 1.696h.032l.856-1.696h.855l-1.339 2.464Z"
+                />
+              </svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">
+              Rock, Paper, Scissors Game in Python
+            </h3>
+            <p>
+              Created Rock, Paper, Scissors using Python. The game can be
+              implemented as a simple text-based program. The code allows the
+              user to input their choice (rock, paper, or scissors), generates a
+              random choice for the computer, compares both choices to determine
+              the winner, and displays the result.
+            </p>
+            <a
+              href="https://github.com/jhargett1/python-rock-paper-scissors-game"
+              target="_blank"
+              class="icon-link"
+            >
+              Github Repository
+              <img src="./chevron-right.svg" alt="chevron right" />
+            </a>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="50"
+                fill="#18113a"
+                class="bi bi-file-person-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z"
+                />
+              </svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Online Resume</h3>
+            <p>
+              Taking part in Angela Yu's Complete 2023 Web Development Bootcamp.
+              As part of the bootcamp, I have created an online resume.
+            </p>
+            <a
+              href="https://github.com/jhargett1/html-resume"
+              class="icon-link"
+              target="_blank"
+            >
+              Github Repository
+              <img src="./chevron-right.svg" alt="chevron right" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="aboutme">
+      <div class="ubuntu">
+        <h2>About Me</h2>
+        <div class="parent">
+          <div>
+            <iframe
+              src="https://giphy.com/embed/bGgsc5mWoryfgKBx1u"
+              height="300"
+              frameborder="0"
+              class="giphy-embed"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div>
+            <h3>Interest in tech</h3>
+            <p>
+              I've always had a keen interest in computers and technology. I
+              started off in support, moving onto systems engineering and server
+              administration. From there, I've continued to learn development
+              and cloud computing.
+            </p>
+          </div>
+          <div>
+            <img
+              src="./weights.png"
+              alt="weights"
+              height="250"
+              style="padding-right: 60px"
+            />
+          </div>
+          <div>
+            <h3>Working Out</h3>
+            <p>
+              As a direct result of watching Arnold Schwarzenegger and action
+              movies for as long as I can remember, I learned how to lift
+              weights. I enjoy working out normally at least 5 days a week.
+            </p>
+          </div>
+          <div>
+            <img
+              src="./KimJoshJupiter.jpg"
+              alt="weights"
+              height="350"
+              style="padding-right: 60px"
+            />
+          </div>
+          <div>
+            <h3>Spending time with my family</h3>
+            <p>
+              My absolute favorite thing to do is spend time with my family. My
+              wife Kim, and our 3 dogs Jupiter (pictured), Dexter, and Olive.
+              They're my reason for getting up every day.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contactme">
+      <hr />
+      <div class="ubuntu divspacing">
+        <h2>Contact</h2>
+        <br />
+        <p class="contact-message">Feel free to reach me below!</p>
+        <a href="mailto:joshhargett.jh@gmail.com"
+          ><button
+            type="button"
+            class="btn btn-outline-secondary btn-lg px-4 gap-3 ubuntu highlight"
+            style="background-color: #18113a"
+          >
+            Contact Me
+          </button></a
+        >
+      </div>
+    </section>
+    <section id="footer">
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+              <a
+                href="https://www.linkedin.com/in/josh-hargett-991223141/"
+                class="nav-link px-2 text-body-secondary"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://github.com/jhargett1"
+                class="nav-link px-2 text-body-secondary"
+                target="_blank"
+                >GitHub</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://medium.com/@joshhargett.jh"
+                class="nav-link px-2 text-body-secondary"
+                target="_blank"
+                >Articles</a
+              >
+            </li>
+          </ul>
+          <p class="text-center text-body-secondary">© 2023 Josh Hargett</p>
+        </footer>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+.backgroundimage {
+  padding-top: 100px;
+  position: relative;
+  background-color: #18113a;
+}
+
+.highlight {
+  color: #d9d9d9;
+  text-shadow: 0 0 10px #d705f2;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.mid-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+  width: 100px;
+}
+
+.low-cloud {
+  position: absolute;
+  right: 400px;
+  bottom: 40px;
+  width: 150px;
+}
+
+.computer {
+  height: 220px;
+}
+
+.navheader {
+  background-color: #18113a;
+  color: #d9d9d9;
+  text-shadow: 0 0 10px #d705f2;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 150px;
+}
+
+.darktext {
+  color: #18113a;
+}
+
+body {
+  text-align: center;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+
+.divspacing {
+  margin-top: 10px;
+  padding-top: 20px;
+}
